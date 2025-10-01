@@ -1,53 +1,106 @@
-<<<<<<< HEAD
 # Personal_Portfolio_Sample
-=======
 
-# Personal Portfolio Website
+![Pages Deploy](https://github.com/eriktong/Personal_Portfolio_Sample/actions/workflows/pages.yml/badge.svg) ![Last commit](https://img.shields.io/github/last-commit/eriktong/Personal_Portfolio_Sample) ![License](https://img.shields.io/badge/license-MIT-informational)
 
-Welcome to my **Personal_Portfolio_Sample**! This is a simple yet elegant website designed to showcase my skills, projects, and contact information. It's a reflection of my journey as a web developer.
+**Live Demo:** [https://eriktong.github.io/Personal_Portfolio_Sample/](https://eriktong.github.io/Personal_Portfolio_Sample/)
 
-## Features
-- **Navbar**: A fixed navigation bar that links to different sections: Home, About, Portfolio, and Contact.
-- **Hero Section**: A welcoming section with a call-to-action button inviting users to get in touch.
-- **About Section**: A brief overview of who I am and my background in web development.
-- **Portfolio Section**: A grid layout displaying a selection of projects (images for now, could be linked to real projects in the future).
-- **Contact Section**: Provides links to my email and GitHub profile for easy communication.
-- **Scroll to Top Button**: A button that appears once you scroll down, allowing you to quickly go back to the top of the page.
-
-## Technologies Used
-- **HTML**: Structure of the webpage
-- **CSS**: Styling for layout, colors, typography, and responsiveness
-- **JavaScript**: Scroll to top functionality and interactivity
-
-## How to Use
-
-### Clone the Repository:
-To get started with the project, clone the repository to your local machine:
-
-git clone https://github.com/eriktong/Personal-Portfolio-Sample.git
-
-
-### Install Dependencies:
-This project doesn't require any external dependencies, so no installation is required beyond downloading the project files.
-
-### Run the Project:
-1. Navigate to the project directory:
-
-cd Personal_Portfolio_Sample
-
-2. Open `index.html` in your preferred browser to see the website in action.
-
-## Contact Me
-You can reach out to me at:
-- **Email**: [frederick_ibarrola@yahoo.com](mailto:frederick_ibarrola@yahoo.com)
-- **GitHub**: [https://github.com/eriktong](https://github.com/eriktong)
-
-## License
-This project is open-source and available under the MIT License. Feel free to fork it and modify as needed.
+> Short description: _Update this one-liner to summarize the app in a sentence._
 
 ---
 
-Thank you for visiting my portfolio!
+## Features
+- Clean starter with Static HTML/CSS/JS
+- Deployed on **GitHub Pages** via Actions
+- Production build output: `.`
+- Mobile-friendly layout _(if applicable)_
+- Routing-ready _(SPA)_  
 
 
->>>>>>> 7ab935f (Initial commit)
+---
+
+## Quick Start
+
+### Prerequisites
+- Node.js LTS (or none if pure static)
+- npm (bundled with Node)
+
+### Local Dev
+```bash
+# install
+npm install
+
+# start dev server
+npx serve .
+```
+
+### Build
+```bash
+(none)
+```
+
+> Build output goes to **`.`**.
+
+---
+
+## Deploy (GitHub Pages)
+
+This repo deploys using **Actions** on pushes to `main`.
+
+- Workflow: `.github/workflows/pages.yml`  
+- Public URL: **https://eriktong.github.io/Personal_Portfolio_Sample/**  
+- SPA fallback: `404.html` is created during the workflow so React Router routes work on refresh.
+
+If something breaks:
+1. Verify the latest workflow run is green.
+2. For CRA, ensure `"homepage": "https://eriktong.github.io/Personal_Portfolio_Sample/"` exists in `package.json`.
+3. For Vite, ensure `base: "/Personal_Portfolio_Sample/"` in `vite.config.*`.
+
+---
+
+## Screenshots
+
+> Put images under `docs/` and reference them here.
+
+| Screen | Image |
+|---|---|
+| Home | ![Home](docs/screenshot-1.png) |
+
+---
+
+## Tech Stack
+- Static HTML/CSS/JS
+- HTML, CSS, JavaScript
+- GitHub Actions + GitHub Pages
+
+---
+
+## Project Structure (high level)
+
+
+---
+
+## Environment Variables
+> If none, delete this section. Otherwise, document them like:
+
+| Variable | Example | Required | Description |
+|---|---|---|---|
+| `VITE_API_URL` | `https://api.example.com` | No | API base URL |
+
+---
+
+## Roadmap / TODO
+- [ ] Add better screenshots
+- [ ] Fill in real description & features
+- [ ] Audit Lighthouse (performance, a11y, SEO)
+- [ ] Add tests (Vitest/Jest) _(optional)_
+- [ ] Add CI for lint/test _(optional)_
+
+---
+
+## License
+This project is licensed under the **MIT License**. See [LICENSE](LICENSE).
+
+---
+
+## Maintainer
+- **Erik Tong** — feedback & issues via GitHub
