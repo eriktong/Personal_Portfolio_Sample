@@ -1,8 +1,9 @@
 # Personal_Portfolio_Sample
 
+**Live Demo:** https://eriktong.github.io/Personal_Portfolio_Sample/
+
 ![Pages Deploy](https://github.com/eriktong/Personal_Portfolio_Sample/actions/workflows/pages.yml/badge.svg) ![Last commit](https://img.shields.io/github/last-commit/eriktong/Personal_Portfolio_Sample) 
 
-**Live Demo:** [https://eriktong.github.io/Personal_Portfolio_Sample/](https://eriktong.github.io/Personal_Portfolio_Sample/)
 
 > Portfolio template variant showcasing personal profile and works.
 
